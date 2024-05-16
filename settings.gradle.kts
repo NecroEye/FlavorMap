@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "FlavorMap"
 include(":app")
+include(":core:ui")
