@@ -28,6 +28,7 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = true
+
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -88,6 +89,8 @@ dependencies {
     kapt(libs.hilt.android.compiler)
 
     implementation(libs.timber)
+
+
 
 
 }
